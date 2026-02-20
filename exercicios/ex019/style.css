@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+/* 
+Tudo que em HTML é id = em CSS é #
+Tudo que em HTML é class = em CSS é . (ponto) 
+Regra: dentro do mesmo documento não posso usar o id mais de um id principal.
+Eu posso ter varios elementos com a mesma class. o id não pode. ex: <h2 class "basico"> 
+Não der nome a seus id e class de acordo com a forma e sim com a função. ex: verde a palavra verde é a forma.
+
+*/
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+color: #1e402f;
+}
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+
+}
+
+h2 {
+color: #3c805e;
+}
+
+.basico {
+color: #3c805e;
+
+}
+
+.intermediario {
+color: #80793c;
+}
+
+.avancado {
+color: #803c3c;
+}
+
+.destaque {
+    background-color: #c5c56070;
+}

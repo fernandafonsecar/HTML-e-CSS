@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'wor Sans', Arial, Helvetica, sans-serif;
+
+            /*
+            Medidas Absolutas
+            cm, mm,in, px pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+
+            usar sempre o px ou o 1em
+
+            weight= Peso    
+            width= Largura
+            height= Altura
+
+            pesos literais
+
+            lighter= magrionho, mais leve
+            Normal=
+            Bold= escura, crossa
+            bolder= mais negrito
+
+            pode fazer combinações com a fontes:
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+
+--------------------------------------
+
+            font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 4em;
+        font-style: italic;
+
+        resumir todas essas fontes em uma linha a baixo:
+        font: italic bolder 3em 'work Sans', sans-serif;
+        atenção: não pode trocar a ordem dessas fontes
+
+            */
+            
+            font-size: 1em;
+            
+        }
+
+       h1 {
+        
+        /* shorthand
+        -font-stle-> font-weight -> font-size -> font-family
+        */
+        font: italic bolder 3em 'work Sans', sans-serif;
+
+       }
+
+       h2 {
+        font: bold 2em 'work Sans';
+
+       }
+    </style>
+</head>
+<body>
+
+    <h1>Trabalhando com Fontes</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi odio harum doloribus libero inventore consectetur optio, cupiditate ipsam facilis illum porro quo minima corrupti dolorem. Ipsam nobis reprehenderit minima iusto.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, id tempore voluptate repellendus neque dicta totam, cupiditate rem ipsa sunt nemo, modi quasi? Quibusdam minima velit culpa quaerat enim.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam placeat neque, repudiandae ratione rerum laborum odio recusandae praesentium incidunt possimus quo obcaecati esse. Veritatis reiciendis qui recusandae amet debitis iste.</p>
+
+</body>
+</html>
