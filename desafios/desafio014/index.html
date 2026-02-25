@@ -32,6 +32,10 @@
         background-color: rgba(128, 128, 128, 0.486);
     }
 
+    tr.destaque {
+        background-color: rgba(128, 128, 128, 0.486);
+    }
+
     </style>
 
 </head>
@@ -40,10 +44,11 @@
     <table>
         <thead>
                 <tr class="linha">
-                    <th>Área</th>
-                    <th>Disciplinas</th>
-                    <th colspan="2">Notas</th>
-                    <th>Média</th>
+
+                    <th scope="col">Área</th>
+                    <th scope="col">Disciplinas</th>
+                    <th scope="col" colspan="2">Notas</th>
+                    <th scope="col">Média</th>
                 </tr>
         
             </thead>
@@ -80,7 +85,7 @@
                 <td>0.0</td>
             </tr>
 
-            <tr>
+            <tr class="destaque">
                 <th colspan="4">Média de Exatas</th>
                 <td>0.0</td>
             </tr>
@@ -101,7 +106,7 @@
                 <td>0.0</td>
             </tr>
 
-            <tr>
+            <tr class="destaque">
                 <th colspan="4">Média de Humanas</th>
                 <td>0.0</td>
             </tr>
